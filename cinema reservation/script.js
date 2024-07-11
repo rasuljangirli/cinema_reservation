@@ -4,7 +4,6 @@ let amount = document.getElementById("amount");
 let select = document.querySelector("#movie");
 const seats = document.querySelectorAll('.seat:not(.reserved)')
 
-
 getFromLocalStorage();
 calculateTotal();
 
