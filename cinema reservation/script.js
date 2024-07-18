@@ -21,7 +21,6 @@ function calculateTotal() {
     const selectedSeats = container.querySelectorAll(".seat.selected");
     const selectedSeatsArr = [];
     const seatsArr = [];
-
     selectedSeats.forEach((seat) => {
         selectedSeatsArr.push(seat);
     });
